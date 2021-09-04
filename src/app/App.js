@@ -32,6 +32,11 @@ function App() {
           <Router path="/profile">
             <Profile />
           </Router>
+
+          <Route path="/articles/:title">
+            <Article />
+          </Route>
+          
         </main>
         <Footer />
     </Router>
