@@ -16,7 +16,11 @@ export default function Profile () {
     <main>
       <h1>{currentUser.username}</h1>
       <Link to={"/profile/edit"}>Edit</Link>
-      {/* Render a route for EditProfileForm */}
+      {/* Render a route for EditProfileForm Route is defined only in Profile.js instead of at App.js*/}
+
+      <Route path="/profile/edit">
+        <EditProfileForm />
+      </Route>
     </main>
   )
 }
