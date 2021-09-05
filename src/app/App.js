@@ -37,9 +37,9 @@ function App() {
             <Route path="/categories">
               <Categories />
             </Route>
-            <Router path="/profile">
+            <Route path="/profile">
               <Profile />
-            </Router>
+            </Route>
           </Switch>
 
         </main>
